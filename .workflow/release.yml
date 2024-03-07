@@ -25,12 +25,7 @@ stages:
           - ''
           - '# 输入你的构建命令'
           - echo '安装goreleaser...'
-          - echo '[goreleaser]
-          - name=GoReleaser
-          - baseurl=https://repo.goreleaser.com/yum/
-          - enabled=1
-          - gpgcheck=0' | sudo tee /etc/yum.repos.d/goreleaser.repo
-          - sudo yum install goreleaser
+          - curl -sfL https://goreleaser.com/static/run | bash
           - ''
           - echo '执行goreleaser...'
           - goreleaser release --skip-publish
