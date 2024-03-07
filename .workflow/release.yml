@@ -24,6 +24,7 @@ stages:
           - ''
           - ''
           - '# 输入你的构建命令'
+          - echo '安装goreleaser...'
           - echo '[goreleaser]
           - name=GoReleaser
           - baseurl=https://repo.goreleaser.com/yum/
@@ -31,8 +32,10 @@ stages:
           - gpgcheck=0' | sudo tee /etc/yum.repos.d/goreleaser.repo
           - sudo yum install goreleaser
           - ''
+          - echo '执行goreleaser...'
           - goreleaser release --skip-publish
           - ''
+          - echo '拷贝制品文件...'
           - mkdir output
           - ''
           - mv ./dist/*.apk ./outoput
