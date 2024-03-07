@@ -27,8 +27,8 @@ stages:
           - echo '执行goreleaser...'
           - '#curl -sfL https://goreleaser.com/static/run | bash -s -- release --skip-publish'
           - ''
-          - go install github.com/goreleaser/goreleaser@v1.20.0
-          - goreleaser release --skip-publish
+          - '#go install github.com/goreleaser/goreleaser@v1.20.0'
+          - '#goreleaser release --skip-publish'
           - ''
           - echo '拷贝制品文件...'
           - mkdir output
