@@ -1,3 +1,5 @@
+[![OSS Compass Analyze](https://oss-compass.org/badge/sru6zzan.svg)](https://oss-compass.org/analyze/sru6zzan)
+
 # SBOM-TOOL
 [English](./README.md) | 简体中文
 
