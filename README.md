@@ -1,5 +1,6 @@
 # SBOM-TOOL
 English | [简体中文](./README_zh.md)
+[![OSS Compass Analyze](https://oss-compass.org/badge/sru6zzan.svg)](https://oss-compass.org/analyze/sru6zzan)
 
 SBOM-TOOL is a ctl tool that generates software bill of materials (SBOM) for software projects through source code warehouse, code fingerprint, construction environment, artifact information, artifact content, dependency construction and other dimensional information.
 ## Feature
