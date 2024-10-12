@@ -1,7 +1,7 @@
-[![OSS Compass Analyze](https://oss-compass.org/badge/sru6zzan.svg)](https://oss-compass.org/analyze/sru6zzan)
-
 # SBOM-TOOL
 [English](./README.md) | 简体中文
+
+[![OSS Compass Analyze](https://oss-compass.org/badge/sru6zzan.svg)](https://oss-compass.org/analyze/sru6zzan)
 
 SBOM-TOOL 是通过源码仓库、代码指纹、构建环境、制品信息、制品内容、依赖组件等多种维度信息，为软件项目生成软件物料清单（SBOM）的一款CLI工具。
 
